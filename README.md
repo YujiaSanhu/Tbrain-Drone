@@ -23,9 +23,9 @@ pip install -r requirements.txt
 
 ### 2. 安裝圖像檔
 
-#1 先至官網[Download Dataset]下載Training Dataset_v5.zip，並解壓縮。
-#2 在...\Tbrain-Drone\YOLOv5路徑下創建資料夾，並命名為「datasets」
-#3 將剛剛解壓縮後的train資料夾遷移至datasets資料夾下
+- 先至官網[Download Dataset]下載Training Dataset_v5.zip，並解壓縮。
+- 在...\Tbrain-Drone\YOLOv5路徑下創建資料夾，並命名為「datasets」
+- 將剛剛解壓縮後的train資料夾遷移至datasets資料夾下
 
 #### 2.影像偵測辨識`detect.py`
 
