@@ -26,7 +26,7 @@ pip install -r requirements.txt
 - 在與YOLOv5資料夾同一路徑下，建立資料夾並命名「original_data」
 - 將大會提供數據集放入original_data資料夾下
 
-#### 3.影像偵測辨識`detect.py`
+### 3.影像偵測辨識`detect.py`
 
 開啟此檔案後，按下執行即可開始進行辨識。
 
