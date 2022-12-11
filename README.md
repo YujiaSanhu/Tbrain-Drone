@@ -41,7 +41,7 @@ def parse_opt():
     parser.add_argument('--source', type=str, default='./datasets/test/', help='file/dir/URL/glob/screen/0(webcam)')    #要辨識的圖檔路徑
     #parser.add_argument('--source', type=str, default='2', help='file/dir/URL/glob/screen/0(webcam)')
     parser.add_argument('--data', type=str, default=ROOT / 'data/coco128.yaml', help='(optional) dataset.yaml path')    #使用coco128訓練集
-    parser.add_argument('--imgsz', '--img', '--img-size', nargs='+', type=int, default=[1280,1920], help='inference size h,w')    #解析度設為1920 x 1280
+    parser.add_argument('--imgsz', '--img', '--img-size', nargs='+', type=int, default=[1080,1920], help='inference size h,w')    #解析度設為1920 x 1280
     parser.add_argument('--conf-thres', type=float, default=0.35, help='confidence threshold')    #信心指數設為0.35
     parser.add_argument('--iou-thres', type=float, default=0.35, help='NMS IoU threshold')    #IoU設為0.35
     parser.add_argument('--max-det', type=int, default=1000, help='maximum detections per image')   #最大偵測張數
