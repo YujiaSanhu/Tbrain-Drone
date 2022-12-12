@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ### 2. 資料集設定
 
-- 在...\Tbrain-Drone-main下，建立資料夾並命名「original_data」
+- 在...\Tbrain-Drone-main下，建立新資料夾並命名「original_data」並將大會提供訓練資料集移入。
 - 在...Tbrain-Drone-main\original_data路徑下新建資料夾「test」
 - 將Public Testing Dataset_v2 和 Private Testing Dataset_v2解壓縮後的圖檔全部移入...Tbrain-Drone-main\original_data\test內
 - 若要訓練模型，依序執行前置處理程式step_1_preprocessing_data_split、step_2_preprocessing_data_augmentation、step_3_preprocessing_preparing_labels   #(若無需使用擴增，則不必執行)
