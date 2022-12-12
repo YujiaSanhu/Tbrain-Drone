@@ -23,6 +23,7 @@ pip install -r requirements.txt
 
 ### 2. 資料集設定
 
+- 執行前置處理程式step_1_preprocessing_data_split、step_2_preprocessing_data_augmentation、step_3_preprocessing_preparing_labels
 - 在與YOLOv5資料夾同一路徑下，建立資料夾並命名「original_data」
 - 將大會提供數據集放入original_data資料夾下
 
@@ -47,7 +48,7 @@ def parse_opt():
  
  ### 4.偵測辨識圖檔
  
- 至路徑...\Drone_yolov5\runs\detect，第一次執行檔名為exp，第二次為exp2...
+ 至路徑detect.py同路徑下，第一次執行檔名為exp，第二次為exp2...
  開啟對應資料夾後即可讀取圖檔。
  
   ### 5.辨識結果文檔（.csv檔）
