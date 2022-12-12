@@ -25,9 +25,9 @@ pip install -r requirements.txt
 
 - 在...\Tbrain-Drone-main下，建立新資料夾並命名「original_data」並將大會提供訓練資料集train移入。
 - 在...\Tbrain-Drone-main\original_data路徑下新建資料夾「test」
-- 將Public Testing Dataset_v2 和 Private Testing Dataset_v2解壓縮後的圖檔全部移入...Tbrain-Drone-main\original_data\test內
-- 若要訓練模型，依序執行前置處理程式step_1_preprocessing_data_split、step_2_preprocessing_data_augmentation、step_3_preprocessing_preparing_labels   (若無需使用擴增，則不必執行step_2_preprocessing_data_augmentation)
-- 在YOLOv5下，若有需要訓練一個模型，則需開啟...\Tbrain-Drone-main\YOLOv5路徑下的train.py，並調整參數後執行即可
+- 將Public Testing Dataset_v2 和 Private Testing Dataset_v2解壓縮後的圖檔全部移入...\Tbrain-Drone-main\original_data\test內
+- 若要訓練模型，依序執行前置處理程式step_1_preprocessing_data_split.py、step_2_preprocessing_data_augmentation.py、step_3_preprocessing_preparing_labels.py   (若無需使用擴增，則不必執行step_2_preprocessing_data_augmentation.py)
+- 在YOLOv5下，若有需要重新訓練模型，則需開啟...\Tbrain-Drone-main\YOLOv5路徑下的train.py，並調整參數後執行即可
 
 ### 3.影像偵測辨識`detect.py`
 
@@ -47,6 +47,7 @@ pip install -r requirements.txt
     parser.add_argument('--conf-thres', type=float, default=0.35, help='confidence threshold')
     parser.add_argument('--iou-thres', type=float, default=0.35, help='NMS IoU threshold')
     parser.add_argument('--max-det', type=int, default=1000, help='maximum detections per image')
+ ```
  
  ### 4.偵測辨識圖檔
  
