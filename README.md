@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ### 3.影像偵測辨識`detect.py`
 
-在YOLOv5路徑下開啟此檔案後，按下執行即可開始進行辨識。
+在...\Tbrain-Drone-main\YOLOv5路徑下開啟此檔案後，按下執行即可開始進行辨識。
 
  ```python
  def parse_opt():
