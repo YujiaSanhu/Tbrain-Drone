@@ -53,7 +53,7 @@ def parse_opt():
  
   ### 5.辨識結果文檔（.csv檔）
   
-  偵測辨識完畢後會將結果csv文檔輸出至...\Drone_yolov5路徑下，檔名預設為R_5_3_test.csv。
+  偵測辨識完畢後會將結果csv文檔輸出至...Tbrain-Drone\YOLOv5YOLOv5路徑下，檔名預設為R_5_3_test.csv。
   
  ```python
   ...
