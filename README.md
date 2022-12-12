@@ -23,9 +23,9 @@ pip install -r requirements.txt
 
 ### 2. 資料集設定
 
-- 執行前置處理程式step_1_preprocessing_data_split、step_2_preprocessing_data_augmentation、step_3_preprocessing_preparing_labels
 - 在與YOLOv5資料夾同一路徑下，建立資料夾並命名「original_data」
 - 將大會提供數據集放入original_data資料夾下
+- 依序執行前置處理程式step_1_preprocessing_data_split、step_2_preprocessing_data_augmentation、step_3_preprocessing_preparing_labels
 
 ### 3.影像偵測辨識`detect.py`
 
