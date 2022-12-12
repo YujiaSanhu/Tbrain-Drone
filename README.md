@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ### 1.下載檔案和模型
 
-先到[Google雲端](https://drive.google.com/file/d/1fEzqibY4f4cPhFUk-V3eVRywVwaG8esJ/view?usp=share_link)下載模型，之後下載github內的檔案後再將模型移入。
+先到[Google雲端](https://drive.google.com/file/d/1fEzqibY4f4cPhFUk-V3eVRywVwaG8esJ/view?usp=share_link)下載模型，之後下載github內的檔案後再將模型移入...Tbrain-Drone\YOLOv5。
 
 ### 2. 資料集設定
 
