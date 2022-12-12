@@ -19,15 +19,15 @@ pip install -r requirements.txt
 
 ### 1.下載檔案和模型
 
-先到[Google雲端](https://drive.google.com/file/d/1fEzqibY4f4cPhFUk-V3eVRywVwaG8esJ/view?usp=share_link)下載模型，之後下載github內的檔案後再將模型移入...Tbrain-Drone\YOLOv5路徑下。
+先到[Google雲端](https://drive.google.com/file/d/1fEzqibY4f4cPhFUk-V3eVRywVwaG8esJ/view?usp=share_link)下載模型，之後下載github內的檔案後再將模型移入...Tbrain-Drone-main\YOLOv5路徑下。
 
 ### 2. 資料集設定
 
 - 在...\Tbrain-Drone-main下，建立資料夾並命名「original_data」
-- 將大會提供train數據集放入original_data資料夾下
-- 將Public Testing Dataset_v2 和 Private Testing Dataset_v2解壓縮後的圖像檔移入...Tbrain-Drone\original_data\test內
-- 若要訓練模型，依序執行前置處理程式step_1_preprocessing_data_split、step_2_preprocessing_data_augmentation #(若無需使用擴增，則不必執行)、step_3_preprocessing_preparing_labels
-- 在YOLOv5下，若有需要新建立一個模型，則需開啟...Tbrain-Drone\YOLOv5路徑下的train.py，並調整參數後執行即可
+- 在...Tbrain-Drone-main\original_data路徑下新建資料夾「test」
+- 將Public Testing Dataset_v2 和 Private Testing Dataset_v2解壓縮後的圖檔全部移入...Tbrain-Drone-main\original_data\test內
+- 若要訓練模型，依序執行前置處理程式step_1_preprocessing_data_split、step_2_preprocessing_data_augmentation、step_3_preprocessing_preparing_labels   #(若無需使用擴增，則不必執行)
+- 在YOLOv5下，若有需要訓練一個模型，則需開啟...Tbrain-Drone-main\YOLOv5路徑下的train.py，並調整參數後執行即可
 
 ### 3.影像偵測辨識`detect.py`
 
@@ -55,7 +55,7 @@ def parse_opt():
  
   ### 5.辨識結果文檔（.csv檔）
   
-  偵測辨識完畢後會將結果csv文檔輸出至...Tbrain-Drone\YOLOv5YOLOv5路徑下，檔名預設為R_5_3_test.csv。
+  偵測辨識完畢後會將結果csv文檔輸出至...Tbrain-Drone-main\YOLOv5YOLOv5路徑下，檔名預設為R_5_3_test.csv。
   
  ```python
   ...
