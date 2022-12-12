@@ -51,12 +51,12 @@ pip install -r requirements.txt
  
  ### 4.偵測辨識圖檔
  
- 至...\Tbrain-Drone-main\YOLOv5\runs路徑下，第一次執行結果在exp資料夾下，第二次在exp2資料夾下...
- 開啟對應資料夾後即可讀取圖檔。
+ 至...\Tbrain-Drone-main\YOLOv5\runs路徑下，第一次執行結果在exp資料夾下，第二次在exp2資料夾下，
+開啟對應資料夾後即可讀取偵測圖檔。
  
   ### 5.辨識結果文檔（.csv檔）
   
-  偵測辨識完畢後會將結果csv文檔輸出至...\Tbrain-Drone-main\YOLOv5YOLOv5路徑下，檔名預設為R_5_3_test.csv。
+  偵測辨識完畢後會將要上傳的偵測結果csv文檔輸出至...\Tbrain-Drone-main\YOLOv5YOLOv5路徑下，檔名預設為R_5_3_test.csv。
   
  ```python
   ...
