@@ -51,7 +51,7 @@ pip install -r requirements.txt
  
  ### 4.偵測辨識圖檔
  
- 至路徑detect.py同路徑下，第一次執行檔名為exp，第二次為exp2...
+ 至...\Tbrain-Drone-main\YOLOv5YOLOv5\runs路徑下，第一次執行檔名為exp資料夾下，第二次為exp2資料夾下...
  開啟對應資料夾後即可讀取圖檔。
  
   ### 5.辨識結果文檔（.csv檔）
