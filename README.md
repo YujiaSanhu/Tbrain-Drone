@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ### 3.影像偵測辨識`detect.py`
 
-開啟此檔案後，按下執行即可開始進行辨識。
+在YOLOv5環境下開啟此檔案後，按下執行即可開始進行辨識。
 
  ```python
  def parse_opt():
@@ -51,7 +51,7 @@ pip install -r requirements.txt
  
  ### 4.偵測辨識圖檔
  
- 至...\Tbrain-Drone-main\YOLOv5YOLOv5\runs路徑下，第一次執行檔名為exp資料夾下，第二次為exp2資料夾下...
+ 至...\Tbrain-Drone-main\YOLOv5\runs路徑下，第一次執行結果在exp資料夾下，第二次在exp2資料夾下...
  開啟對應資料夾後即可讀取圖檔。
  
   ### 5.辨識結果文檔（.csv檔）
